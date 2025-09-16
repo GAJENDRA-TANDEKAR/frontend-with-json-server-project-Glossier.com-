@@ -1,0 +1,29 @@
+#product_delete_ser{
+     /* border: 1px solid red; */
+ width: 100% ; 
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.button_t{
+    background-color: rgb(126, 199, 230);
+}
+fieldset{
+    /* border: 1px solid blue; */
+    height: auto;
+    width: 60%;
+    display: grid;
+    gap: 15px;
+
+}
+legend{
+    /* border: 1px solid green; */
+    text-align: center;
+    font-size: 50px;
+}
+.inside_fieldset{
+    /* border: 1px solid yellow; */
+    width: 100%;
+    font-size: 25px;
+
+}

@@ -1,0 +1,45 @@
+function navbar(){
+    return` <div class="main-nav-bar">
+        <div class="inside-main-nav-div">
+
+            <div class="glossierlogo">
+                <a href="/index.html">
+                <img id="glossier-logo" src="https://cdn.worldvectorlogo.com/logos/glossier-1.svg" alt="Glossier Logo">
+                </a>
+            </div>
+            
+            <div class="links-class search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search products...">
+            </div>
+
+            <div class="account-login-register ">
+                <a class="link" href=""><i class="fa-regular fa-user"></i></a>
+                <a  class="link" href=""><i class="fa-solid fa-cart-shopping link"></i></a>
+                <i class="fa-solid fa-globe link"></i>
+                <i class="fa-solid fa-language link"></i>
+                <div class="login-register" id="login"><a  class="link" href="/components/LoginandRegistration/loginandregister.html">Login</a></div>
+                <a class="link" href="">Stores</a>
+                 <div class="login-register" id="register"><a class="link" href="/admin side/insert data/insert.html">Admin</a></div>
+            </div>
+
+        </div>
+    </div>
+    <div class="products-types">
+        <a href="./components/All product types/allProducttypes.html">All Product Type</a>        
+        <a href="./components/Blush/blush.html">blush</a>        
+        <a href="./components/Bronzer/bronzer.html">bronzer</a>        
+        <a href="./components/Eyebrow/eyebrow.html">eyebrow</a>        
+        <a href="./components/Eyeliner/eyeliner.html">eyeliner</a>        
+        <a href="./components/Eyeshadow/eyeshadow.html">eyeshadow</a>        
+        <a href="./components/Foundation/foundation.html">foundation</a>        
+        <a href="./components/Lip-Liner/lipliner.html">lip_liner</a>        
+        <a href="./components/LipStick/lipstick.html">lipstick</a>        
+        <a href="./components/Mascare/mascare.html">mascara</a>        
+        <a href="./components/Anail-Polish/anailpolish.html">Anail_polish</a>        
+    </div>
+    
+`
+}
+
+export default navbar

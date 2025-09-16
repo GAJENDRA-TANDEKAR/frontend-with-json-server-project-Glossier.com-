@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./update.css">
+    <title>update data </title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Admin page</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="/index.html">Home</a></li>
+      <li><a href="/admin side/insert data/insert.html">Insert Data</a></li>
+      <li><a href="/admin side/update data/update.html">Update Data</a></li>
+      <li><a href="/admin side/delete data/delete.html">Delete data</a></li>
+      <li><a href="/components/All product types/allProducttypes.html">Mapping all product</a></li>
+    </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+      <li><a href="/index.html"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+    </ul>
+  </div>
+</nav>
+  
+
+
+    <div id="product_update_ser">
+            <fieldset>
+                <legend><h3>update  product details </h3></legend>
+                <input type="text" id="productIDdata" placeholder="enter the productID of the items for updates" class="inside_fieldset">
+                <button id="productupdateButton" class="inside_fieldset button_t " >update  product details</button>
+            </fieldset>
+    </div>
+
+    <div id="forminsertdiv">
+        <form action="" id="product_update_form">
+        <fieldset   >
+            <legend>
+            <h3> Update product Data form </h3>
+            </legend>
+<!-- <input type="text" name="" id="" placeholder=""> -->
+
+        <input type="text" name="p_name" id="product_name" placeholder=" Enter your product name" class="inside_fieldset">
+        <input type="text" name="p_brand" id="product_brand" placeholder="Enter your product brand name" class="inside_fieldset">
+
+
+        <select name="p_type" id="productTypeSelect" class="inside_fieldset">
+            <option value="pselecttype">select product type</option>
+            <option value="lip_liner">lip_liner</option>
+            <option value="lipstick">lipstick</option>
+            <option value="foundation">foundation</option>
+            <option value="eyeliner">eyeliner</option>
+            <option value="eyeshadow">eyeshadow</option>
+            <option value="blush">blush</option>
+            <option value="bronzer">bronzer</option>
+            <option value="mascara">mascara</option>
+            <option value="eyebrow">eyebrow</option>
+            <option value="nail_polish">nail_polish</option>
+        </select>
+     
+
+        <select name="p_category" id="product_category" class="inside_fieldset" >
+            <option value="pselectcategory">select products category</option>
+            <option value="pencil">pencil</option>
+            <option value="lipstick">lipstick</option>
+            <option value="liquid">liquid</option>
+            <option value="powder">powder</option>
+            <option value="lip_gloss">lip_gloss</option>
+            <option value="gel">gel</option>
+            <option value="cream">cream</option>
+            <option value="palette">palette</option>
+            <option value="concealer">concealer</option>
+            <option value="highlighter">highlighter</option>
+            <option value="null">null</option> 
+            <option value="bb_cc">bb_cc</option>
+            <option value="contour">contour</option>
+            <option value="lip_stain">lip_stain</option>
+            <option value="mineral">mineral</option>
+        </select>
+
+
+        <input type="number" name="p_price" id="product_price" placeholder="Enter product price" class="inside_fieldset">
+        <input type="number" name="p_rating" id="product_rating" placeholder="Enter product rating" class="inside_fieldset">
+        <!-- <input type="text" name="" id="" placeholder=""> -->
+
+        <input type="url" name="p_image" id="product_image" placeholder=" Enter product image URL " class="inside_fieldset">
+        
+        <textarea name="p_description" id="product_description" placeholder="Enter product description"></textarea class="inside_fieldset">
+
+
+
+
+        <input type="submit" name="" id="" class="inside_fieldset button_t">
+        
+        </fieldset>
+    </form>
+
+    
+
+    </div>
+
+   
+    
+</body>
+<script src="./update.js"></script>
+</html>

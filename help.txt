@@ -1,0 +1,178 @@
+Unique Categories: (16) ['pencil', 'lipstick', 'liquid', '', 'powder', 'lip_gloss', 'gel', 'cream', 'palette', 'concealer', 'highlighter', 'null', 'bb_cc', 'contour', 'lip_stain', 'mineral']
+
+
+ Unique Product Types: (10) ['lip_liner', 'lipstick', 'foundation', 'eyeliner', 'eyeshadow', 'blush', 'bronzer', 'mascara', 'eyebrow', 'nail_polish']
+
+
+ Unique Brands: (58) ['colourpop', 'boosh', 'deciem', 'zorah biocosmetiques', 'w3llpeople', "sally b's skin yummies", 'rejuva minerals', 'penny lane organics', 'nudus', 'marienatie', "maia's mineral galaxy", 'lotus cosmetics usa', 'green people', 'coastal classic creation', "c'est moi", 'alva', 'glossier', 'nyx', 'fenty', 'clinique', 'dior', 'iman', 'benefit', 'smashbox', 'marcelle', 'stila', 'mineral fusion', 'null', 'annabelle', 'dr. hauschka', 'physicians formula', 'cargo cosmetics', 'covergirl', 'e.l.f.', 'maybelline', 'almay', 'milani', 'pure anada', "l'oreal", 'sante', 'revlon', 'anna sui', 'wet n wild', 'pacifica', 'mistura', 'zorah', 'suncoat', 'moov', 'misa', 'salon perfect', 'orly', 'china glaze', 'essie', 'butter london', 'sinful colours', 'piggy paint', 'dalish', "burt's bees"]
+
+
+
+Categories per Product Type:
+find.js:42227 
+(index)
+categories
+count
+lip_liner	Array(2)	2
+lipstick	Array(5)	5
+foundation	Array(9)	9
+eyeliner	Array(5)	5
+eyeshadow	Array(4)	4
+blush	    Array(3)	3
+bronzer  	Array(2)	2
+mascara	    Array(1)	1
+eyebrow 	Array(2)	2
+nail_polish	Array(1)	1
+
+
+
+ Object
+blush
+: 
+categories
+: 
+(3) ['powder', 'cream', 'Unknown']
+count
+: 
+3
+[[Prototype]]
+: 
+Object
+
+
+
+bronzer
+: 
+categories
+: 
+(2) ['powder', 'Unknown']
+count
+: 
+2
+[[Prototype]]
+: 
+Object
+
+
+
+
+
+eyebrow
+: 
+categories
+: 
+(2) ['pencil', 'Unknown']
+count
+: 
+2
+[[Prototype]]
+: 
+Object
+
+
+
+
+
+eyeliner
+: 
+categories
+: 
+(5) ['liquid', 'gel', 'pencil', 'cream', 'Unknown']
+count
+: 
+5
+[[Prototype]]
+: 
+Object
+
+
+
+
+eyeshadow
+: 
+categories
+: 
+(4) ['palette', 'cream', 'Unknown', 'pencil']
+count
+: 
+4
+[[Prototype]]
+: 
+Object
+
+
+
+
+
+foundation
+: 
+categories
+: 
+(9) ['liquid', 'powder', 'concealer', 'highlighter', 'Unknown', 'bb_cc', 'contour', 'cream', 'mineral']
+count
+: 
+9
+[[Prototype]]
+: 
+Object
+
+
+
+
+lip_liner
+: 
+categories
+: 
+(2) ['pencil', 'Unknown']
+count
+: 
+2
+[[Prototype]]
+: 
+Object
+
+
+
+lipstick
+: 
+categories
+: 
+(5) ['lipstick', 'lip_gloss', 'Unknown', 'liquid', 'lip_stain']
+count
+: 
+5
+[[Prototype]]
+: 
+Object
+
+
+
+
+mascara
+: 
+categories
+: 
+['Unknown']
+count
+: 
+1
+[[Prototype]]
+: 
+Object
+
+
+
+nail_polish
+: 
+categories
+: 
+['Unknown']
+count
+: 
+1
+[[Prototype]]
+: 
+Object
+[[Prototype]]
+: 
+Object

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./delete.css">
+    <title>Delete product </title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Admin page</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="/index.html">Home</a></li>
+      <li><a href="/admin side/insert data/insert.html">Insert Data</a></li>
+      <li><a href="/admin side/update data/update.html">Update Data</a></li>
+      <li><a href="/admin side/delete data/delete.html">Delete data</a></li>
+      <li><a href="/components/All product types/allProducttypes.html">Mapping all product</a></li>
+    </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+      <li><a href="/index.html"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+    </ul>
+  </div>
+</nav>
+  
+
+    <div id="product_delete_ser">
+        <fieldset>
+            <legend><h3>Delete product item</h3></legend>
+            <input type="text" id="delete_product_ID" placeholder="enter the id of product item you want to deleted" class="inside_fieldset">
+            <button id="product_delete_Button"  class="inside_fieldset button_t" >delete Grocery item </button>
+        </fieldset>
+    </div>
+    
+</body>
+<script src="./delete.js"></script>
+</html>
